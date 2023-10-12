@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h2>Todays Name List</h2>
+      <div class="taskField">
+        <input type="text" id="username" autocomplete="off" />
+        <button id="adduser">Add Task</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Your Name</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="displayRecords">
+          <!--   <tr>
+                <th>1</th>
+                <td>Hello world</td>
+                <td><button>Delete</button> <button>Edit</button></td>
+            </tr>  -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
